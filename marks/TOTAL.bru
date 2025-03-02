@@ -5,13 +5,13 @@ meta {
 }
 
 post {
-  url: http://localhost:9126/student/marks
+  url: http://localhost:9127/students/above-threshold
   body: json
   auth: none
 }
 
 body:json {
   {
-    "threshold" : "400"
+    "threshold" : 400
   }
 }
