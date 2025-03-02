@@ -1,0 +1,17 @@
+meta {
+  name: TOTAL
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:9126/student/marks
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "threshold" : "400"
+  }
+}
